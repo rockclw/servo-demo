@@ -23,7 +23,7 @@ namespace demo {
     //% block="Servo pin %pin turn %dir by %degree °" blockId=servoTurn
     //% degree.min=0 degree.max=90
     //% group="Servos"
-    //% help=functions/servoTurn
+    //% help=functions/servoTurn.md
 
     /**
      * Turn the servo to left/right for certain degree.(0-90)
@@ -39,7 +39,7 @@ namespace demo {
 
     //% block="Servo pin %pin to original position" blockId=servoStop
     //% group="Servos"
-    //% help=functions/servoStop
+    //% help=functions/servoStop.md
 
     /**
      * Turn the servo back to its original position(central).
@@ -51,7 +51,7 @@ namespace demo {
     //% block="Claw with pin %pin %status" blockId=clawSwitch
     //% status.shadow="toggleOnOff"
     //% group="Claws"
-    //% help=functions/clawSwitch
+    //% help=functions/clawSwitch.md
     /**
      * open/close the claws
      */
