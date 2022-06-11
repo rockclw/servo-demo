@@ -4,6 +4,8 @@ enum direction {
     //% blockID="dir_right" block="right"
     right = 2
 }
+//% color="#03AA74" weight=88 icon="\uf021" blockGap=8
+//% groups='["Servos", "Claws"]'
 namespace demo {
 
     const CLAW_ON_DEGREE = 90
